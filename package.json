@@ -1,0 +1,49 @@
+{
+	"name": "test",
+	"description": "",
+	"version": "1.0.0",
+	"type": "module",
+	"private": true,
+	"keywords": [
+		"activity",
+		"api",
+		"discord",
+		"embed",
+		"embedded app",
+		"http",
+		"javascript",
+		"robo",
+		"robo.js",
+		"sdk",
+		"server",
+		"vite",
+		"web"
+	],
+	"scripts": {
+		"build": "robo build",
+		"deploy": "robo deploy",
+		"dev": "robox dev --tunnel",
+		"doctor": "sage doctor",
+		"invite": "robo invite",
+		"lint": "npm run lint:eslint && npm run lint:style",
+		"lint:eslint": "eslint -c config/eslint.mjs .",
+		"lint:style": "prettier --write .",
+		"start": "robo start",
+		"tunnel": "cloudflared tunnel --url http://localhost:3000",
+		"upgrade": "sage upgrade"
+	},
+	"dependencies": {
+		"@discord/embedded-app-sdk": "^2.2.0",
+		"@robojs/patch": "^0.2.1",
+		"@robojs/server": "^0.6.4",
+		"robo.js": "^0.10.30"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.34.0",
+		"discord.js": "^14.22.1",
+		"eslint": "^9.34.0",
+		"globals": "^16.3.0",
+		"prettier": "^3.6.2",
+		"vite": "^5.4.19"
+	}
+}
