@@ -1,0 +1,327 @@
+[2025-08-25 16:45:18] Debug: EasyRPG Player 0.8 (2023-04-29) started
+[2025-08-25 16:45:18] Debug: =======================================
+[2025-08-25 16:45:18] Debug: CLI: --window 
+[2025-08-25 16:45:18] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2025-08-25 16:45:18] Debug: Seeded the RNG with 1756151118.
+[2025-08-25 16:45:18] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2025-08-25 16:45:18] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2025-08-25 16:45:18] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2025-08-25 16:45:18] Debug: Game and Save Directory:
+[2025-08-25 16:45:18] Debug: 1: [Native] 
+[2025-08-25 16:45:18] Debug: Loading game Another Side of Flames
+[2025-08-25 16:45:18] Debug: Game does not need RTP (FullPackageFlag=1)
+[2025-08-25 16:45:18] Debug: Analyzing RPG_RT RPG_RT.exe
+[2025-08-25 16:45:18] Debug: EXEReader: EXFONT resource found (DE 0xad0f8; 0xb058c; len 0x2168)
+[2025-08-25 16:45:18] Debug: EXEReader: Custom ExFont found
+[2025-08-25 16:45:18] Debug: ExFont loaded from RPG_RT
+[2025-08-25 16:45:18] Debug: EXEReader: VERSIONINFO not found
+[2025-08-25 16:45:18] Debug: RPG_RT information: version= logos=1 i386=true easyrpg=false
+[2025-08-25 16:45:18] Debug: Engine configured as: 2k=true 2k3=false MajorUpdated=true Eng=false
+[2025-08-25 16:45:18] Debug: Adding D:\SteamLibrary\steamapps\common\RPG Maker 2000\RTP to RTP path
+[2025-08-25 16:45:18] Debug: RTP is "Official English" (465/465)
+[2025-08-25 16:45:18] Debug: Patch configuration: dynrpg=false maniac=false key-patch=true common-this=false pic-unlock=false 2k3-commands=false
+[2025-08-25 16:45:18] Debug: Cannot find: Font/Font
+[2025-08-25 16:45:18] Debug: Cannot find: Font/Font2
+[2025-08-25 16:45:20] Debug: Resolution changed to 320x240
+[2025-08-25 16:45:20] Debug: Cannot find: Music/On-jin_bgm-oopsuspenser02
+[2025-08-25 16:45:20] Debug: Music not found: On-jin_bgm-oopsuspenser02
+[2025-08-25 16:45:30] Debug: Starting new game
+[2025-08-25 16:45:30] Debug: Loaded Map Map0326.lmu
+[2025-08-25 16:45:30] Debug: Tree: Page < Start 輟
+[2025-08-25 16:45:31] Debug: Invalid read sw[281]!
+[2025-08-25 16:45:31] Debug: Invalid read sw[281]! [2x]
+[2025-08-25 16:45:31] Debug: Invalid write sw[303] = true!
+[2025-08-25 16:45:34] Debug: Loaded Map Map0198.lmu
+[2025-08-25 16:45:34] Debug: Tree: Start 輟
+[2025-08-25 16:45:57] Debug: EasyRPG Player 0.8 (2023-04-29) started
+[2025-08-25 16:45:57] Debug: =======================================
+[2025-08-25 16:45:57] Debug: CLI: 
+[2025-08-25 16:45:57] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2025-08-25 16:45:57] Debug: Seeded the RNG with 1756151157.
+[2025-08-25 16:45:57] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2025-08-25 16:45:57] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2025-08-25 16:45:57] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2025-08-25 16:45:57] Debug: Game and Save Directory:
+[2025-08-25 16:45:57] Debug: 1: [Native] 
+[2025-08-25 16:45:57] Debug: Loading game Another Side of Flames
+[2025-08-25 16:45:57] Debug: Game does not need RTP (FullPackageFlag=1)
+[2025-08-25 16:45:57] Debug: Analyzing RPG_RT RPG_RT.exe
+[2025-08-25 16:45:57] Debug: EXEReader: EXFONT resource found (DE 0xad0f8; 0xb058c; len 0x2168)
+[2025-08-25 16:45:57] Debug: EXEReader: Custom ExFont found
+[2025-08-25 16:45:57] Debug: ExFont loaded from RPG_RT
+[2025-08-25 16:45:57] Debug: EXEReader: VERSIONINFO not found
+[2025-08-25 16:45:57] Debug: RPG_RT information: version= logos=1 i386=true easyrpg=false
+[2025-08-25 16:45:57] Debug: Engine configured as: 2k=true 2k3=false MajorUpdated=true Eng=false
+[2025-08-25 16:45:57] Debug: Adding D:\SteamLibrary\steamapps\common\RPG Maker 2000\RTP to RTP path
+[2025-08-25 16:45:57] Debug: RTP is "Official English" (465/465)
+[2025-08-25 16:45:57] Debug: Patch configuration: dynrpg=false maniac=false key-patch=true common-this=false pic-unlock=false 2k3-commands=false
+[2025-08-25 16:45:57] Debug: Cannot find: Font/Font
+[2025-08-25 16:45:57] Debug: Cannot find: Font/Font2
+[2025-08-25 16:45:58] Debug: Resolution changed to 320x240
+[2025-08-25 16:45:58] Debug: Cannot find: Music/On-jin_bgm-oopsuspenser02
+[2025-08-25 16:45:58] Debug: Music not found: On-jin_bgm-oopsuspenser02
+[2025-08-25 16:46:00] Debug: Starting new game
+[2025-08-25 16:46:00] Debug: Loaded Map Map0326.lmu
+[2025-08-25 16:46:00] Debug: Tree: Page < Start 輟
+[2025-08-25 16:46:02] Debug: Invalid read sw[281]!
+[2025-08-25 16:46:02] Debug: Invalid read sw[281]! [2x]
+[2025-08-25 16:46:02] Debug: Invalid write sw[303] = true!
+[2025-08-25 16:46:05] Debug: Loaded Map Map0198.lmu
+[2025-08-25 16:46:05] Debug: Tree: Start 輟
+[2025-08-25 16:49:10] Debug: EasyRPG Player 0.8 (2023-04-29) started
+[2025-08-25 16:49:10] Debug: =======================================
+[2025-08-25 16:49:10] Debug: CLI: 
+[2025-08-25 16:49:10] Debug: Clock: StdSteady steady=true period=ns (1 / 1000000000)
+[2025-08-25 16:49:10] Debug: Seeded the RNG with 1756151350.
+[2025-08-25 16:49:10] Debug: SDL2: RendererInfo hw=true sw=false vsync=true
+[2025-08-25 16:49:10] Debug: SDL2: Detected format (0) SDL_PIXELFORMAT_ARGB8888 : rank=(2)
+[2025-08-25 16:49:10] Debug: SDL2: Selected Pixel Format SDL_PIXELFORMAT_ARGB8888
+[2025-08-25 16:49:10] Debug: Game and Save Directory:
+[2025-08-25 16:49:10] Debug: 1: [Native] 
+[2025-08-25 16:49:10] Debug: Loading game Another Side of Flames
+[2025-08-25 16:49:10] Debug: Game does not need RTP (FullPackageFlag=1)
+[2025-08-25 16:49:10] Debug: Analyzing RPG_RT RPG_RT.exe
+[2025-08-25 16:49:10] Debug: EXEReader: EXFONT resource found (DE 0xad0f8; 0xb058c; len 0x2168)
+[2025-08-25 16:49:10] Debug: EXEReader: Custom ExFont found
+[2025-08-25 16:49:10] Debug: ExFont loaded from RPG_RT
+[2025-08-25 16:49:10] Debug: EXEReader: VERSIONINFO not found
+[2025-08-25 16:49:10] Debug: RPG_RT information: version= logos=1 i386=true easyrpg=false
+[2025-08-25 16:49:10] Debug: Engine configured as: 2k=true 2k3=false MajorUpdated=true Eng=false
+[2025-08-25 16:49:10] Debug: Adding D:\SteamLibrary\steamapps\common\RPG Maker 2000\RTP to RTP path
+[2025-08-25 16:49:10] Debug: RTP is "Official English" (465/465)
+[2025-08-25 16:49:10] Debug: Patch configuration: dynrpg=false maniac=false key-patch=true common-this=false pic-unlock=false 2k3-commands=false
+[2025-08-25 16:49:10] Debug: Cannot find: Font/Font
+[2025-08-25 16:49:10] Debug: Cannot find: Font/Font2
+[2025-08-25 16:49:11] Debug: Resolution changed to 320x240
+[2025-08-25 16:49:11] Debug: Cannot find: Music/On-jin_bgm-oopsuspenser02
+[2025-08-25 16:49:11] Debug: Music not found: On-jin_bgm-oopsuspenser02
+[2025-08-25 16:49:14] Debug: Loading Save Save01.lsd
+[2025-08-25 16:49:14] Debug: Savegame version 810 (EasyRPG Player 0.8.1)
+[2025-08-25 16:49:14] Warning: This savegame was created with EasyRPG Player 0.8.1 which is newer than the current version of EasyRPG Player (0.8)
+[2025-08-25 16:49:14] Debug: Loaded Map Map0154.lmu
+[2025-08-25 16:49:14] Debug: Tree: Emalf House 1 < Frame Village
+[2025-08-25 16:49:16] Debug: Fluidsynth: Could not load soundfont.
+[2025-08-25 16:49:16] Debug: WildMidi: Could not find configuration file.
+[2025-08-25 16:50:10] Debug: Loaded Map Map0155.lmu
+[2025-08-25 16:50:10] Debug: Tree: Emalf House 2 < Emalf House 1 < Frame Village
+[2025-08-25 16:50:10] Debug: Cannot find: Music/Senses circuit_sunbeamspot-piano
+[2025-08-25 16:50:10] Debug: Music not found: Senses circuit_sunbeamspot-piano
+[2025-08-25 16:50:27] Debug: Loaded Map Map0032.lmu
+[2025-08-25 16:50:27] Debug: Tree: Frame Village
+[2025-08-25 16:50:56] Debug: Loaded Map Map0158.lmu
+[2025-08-25 16:50:56] Debug: Tree: Prison < Frame Village
+[2025-08-25 16:51:31] Debug: Loaded Map Map0032.lmu
+[2025-08-25 16:51:31] Debug: Tree: Frame Village
+[2025-08-25 16:51:42] Debug: Loaded Map Map0218.lmu
+[2025-08-25 16:51:42] Debug: Tree: Route 1 < Frame Village
+[2025-08-25 16:52:01] Debug: Loaded Map Map0217.lmu
+[2025-08-25 16:52:01] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 16:54:17] Debug: Loaded Map Map0239.lmu
+[2025-08-25 16:54:17] Debug: Tree: Presents 輟 ES
+[2025-08-25 16:54:30] Debug: Loaded Map Map0217.lmu
+[2025-08-25 16:54:30] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 16:54:52] Debug: Loaded Map Map0207.lmu
+[2025-08-25 16:54:52] Debug: Tree: Cave < Frame Village
+[2025-08-25 16:55:05] Debug: Loaded Map Map0183.lmu
+[2025-08-25 16:55:05] Debug: Tree: Framecave < Cave < Frame Village
+[2025-08-25 16:55:10] Debug: Loaded Map Map0186.lmu
+[2025-08-25 16:55:10] Debug: Tree: Framecave 1 < Framecave < Cave < Frame Village
+[2025-08-25 16:55:20] Debug: Starting battle 71 (Flaming bat): algos=(RPG_RT/RPG_RT)
+[2025-08-25 16:55:54] Debug: Starting battle 71 (Flaming bat): algos=(RPG_RT/RPG_RT) [2x]
+[2025-08-25 16:55:54] Debug: Loaded Map Map0187.lmu
+[2025-08-25 16:55:54] Debug: Tree: Framecave 2 < Framecave < Cave < Frame Village
+[2025-08-25 16:56:10] Debug: Loaded Map Map0199.lmu
+[2025-08-25 16:56:10] Debug: Tree: Wrong 2 < Framecave 2 < Framecave < Cave < Frame Village
+[2025-08-25 16:56:19] Debug: Loaded Map Map0187.lmu
+[2025-08-25 16:56:19] Debug: Tree: Framecave 2 < Framecave < Cave < Frame Village
+[2025-08-25 16:56:28] Debug: Loaded Map Map0203.lmu
+[2025-08-25 16:56:28] Debug: Tree: Framecave 3 < Framecave < Cave < Frame Village
+[2025-08-25 16:56:42] Debug: Loaded Map Map0210.lmu
+[2025-08-25 16:56:42] Debug: Tree: Framecave 4 < Framecave < Cave < Frame Village
+[2025-08-25 16:57:03] Debug: Loaded Map Map0030.lmu
+[2025-08-25 16:57:03] Debug: Tree: Presents 輟 ES < Framecave 4 < Framecave < Cave < Frame Village
+[2025-08-25 16:57:41] Debug: Loaded Map Map0207.lmu
+[2025-08-25 16:57:41] Debug: Tree: Cave < Frame Village
+[2025-08-25 16:58:11] Debug: Loaded Map Map0217.lmu
+[2025-08-25 16:58:11] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 16:58:14] Debug: Loaded Map Map0211.lmu
+[2025-08-25 16:58:14] Debug: Tree: Cafeteria < Frame Village
+[2025-08-25 16:58:21] Debug: Loaded Map Map0217.lmu
+[2025-08-25 16:58:21] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 16:58:26] Debug: Loaded Map Map0219.lmu
+[2025-08-25 16:58:26] Debug: Tree: Route 2 < Frame Village
+[2025-08-25 16:58:31] Debug: Loaded Map Map0223.lmu
+[2025-08-25 16:58:31] Debug: Tree: Devil Castle < Frame Village
+[2025-08-25 16:58:59] Debug: Loaded Map Map0246.lmu
+[2025-08-25 16:58:59] Debug: Tree: Playground < Devil Castle < Frame Village
+[2025-08-25 17:00:11] Debug: Loaded Map Map0239.lmu
+[2025-08-25 17:00:11] Debug: Tree: Presents 輟 ES
+[2025-08-25 17:00:31] Debug: Loaded Map Map0252.lmu
+[2025-08-25 17:00:31] Debug: Tree: Event 1 < Thorone < Devil Castle < Frame Village
+[2025-08-25 17:01:58] Debug: Loaded Map Map0239.lmu
+[2025-08-25 17:01:58] Debug: Tree: Presents 輟 ES
+[2025-08-25 17:02:15] Debug: Loaded Map Map0250.lmu
+[2025-08-25 17:02:15] Debug: Tree: Thorone < Devil Castle < Frame Village
+[2025-08-25 17:02:24] Debug: Loaded Map Map0253.lmu
+[2025-08-25 17:02:24] Debug: Tree: 1f < Devil Castle < Frame Village
+[2025-08-25 17:02:35] Debug: Loaded Map Map0223.lmu
+[2025-08-25 17:02:35] Debug: Tree: Devil Castle < Frame Village
+[2025-08-25 17:02:45] Debug: Loaded Map Map0219.lmu
+[2025-08-25 17:02:45] Debug: Tree: Route 2 < Frame Village
+[2025-08-25 17:02:51] Debug: Loaded Map Map0217.lmu
+[2025-08-25 17:02:51] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 17:02:56] Debug: Loaded Map Map0218.lmu
+[2025-08-25 17:02:56] Debug: Tree: Route 1 < Frame Village
+[2025-08-25 17:03:20] Debug: Loaded Map Map0217.lmu
+[2025-08-25 17:03:20] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 17:03:22] Debug: Loaded Map Map0218.lmu
+[2025-08-25 17:03:22] Debug: Tree: Route 1 < Frame Village
+[2025-08-25 17:03:23] Debug: Loaded Map Map0217.lmu
+[2025-08-25 17:03:23] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 17:03:24] Debug: Loaded Map Map0218.lmu
+[2025-08-25 17:03:24] Debug: Tree: Route 1 < Frame Village
+[2025-08-25 17:03:37] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:03:37] Debug: Tree: Frame Village
+[2025-08-25 17:03:45] Debug: Loaded Map Map0156.lmu
+[2025-08-25 17:03:45] Debug: Tree: House5 < HOUSE1 < Frame Village
+[2025-08-25 17:03:45] Debug: Cannot find: Music/Senses circuit_sunbeamspot-piano
+[2025-08-25 17:03:45] Debug: Music not found: Senses circuit_sunbeamspot-piano
+[2025-08-25 17:03:53] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:03:53] Debug: Tree: Frame Village
+[2025-08-25 17:04:16] Debug: Loaded Map Map0152.lmu
+[2025-08-25 17:04:16] Debug: Tree: House3 < HOUSE1 < Frame Village
+[2025-08-25 17:04:16] Debug: Cannot find: Music/Senses circuit_sunbeamspot-piano
+[2025-08-25 17:04:16] Debug: Music not found: Senses circuit_sunbeamspot-piano
+[2025-08-25 17:04:19] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:04:19] Debug: Tree: Frame Village
+[2025-08-25 17:04:24] Debug: Loaded Map Map0218.lmu
+[2025-08-25 17:04:24] Debug: Tree: Route 1 < Frame Village
+[2025-08-25 17:04:25] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:04:25] Debug: Tree: Frame Village
+[2025-08-25 17:04:35] Debug: Loaded Map Map0151.lmu
+[2025-08-25 17:04:35] Debug: Tree: House2 < HOUSE1 < Frame Village
+[2025-08-25 17:04:35] Debug: Cannot find: Music/Senses circuit_sunbeamspot-piano
+[2025-08-25 17:04:35] Debug: Music not found: Senses circuit_sunbeamspot-piano
+[2025-08-25 17:04:37] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:04:37] Debug: Tree: Frame Village
+[2025-08-25 17:04:49] Debug: Loaded Map Map0035.lmu
+[2025-08-25 17:04:49] Debug: Tree: HOUSE1 < Frame Village
+[2025-08-25 17:04:49] Debug: Cannot find: Music/Senses circuit_sunbeamspot-piano
+[2025-08-25 17:04:49] Debug: Music not found: Senses circuit_sunbeamspot-piano
+[2025-08-25 17:04:53] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:04:53] Debug: Tree: Frame Village
+[2025-08-25 17:04:55] Debug: Loaded Map Map0153.lmu
+[2025-08-25 17:04:55] Debug: Tree: House4 < HOUSE1 < Frame Village
+[2025-08-25 17:04:55] Debug: Cannot find: Music/Senses circuit_sunbeamspot-piano
+[2025-08-25 17:04:55] Debug: Music not found: Senses circuit_sunbeamspot-piano
+[2025-08-25 17:05:05] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:05:05] Debug: Tree: Frame Village
+[2025-08-25 17:05:15] Debug: Loaded Map Map0155.lmu
+[2025-08-25 17:05:15] Debug: Tree: Emalf House 2 < Emalf House 1 < Frame Village
+[2025-08-25 17:05:15] Debug: Cannot find: Music/Senses circuit_sunbeamspot-piano
+[2025-08-25 17:05:15] Debug: Music not found: Senses circuit_sunbeamspot-piano
+[2025-08-25 17:05:19] Debug: Loaded Map Map0154.lmu
+[2025-08-25 17:05:19] Debug: Tree: Emalf House 1 < Frame Village
+[2025-08-25 17:05:23] Debug: Loaded Map Map0155.lmu
+[2025-08-25 17:05:23] Debug: Tree: Emalf House 2 < Emalf House 1 < Frame Village
+[2025-08-25 17:05:24] Debug: Loaded Map Map0154.lmu
+[2025-08-25 17:05:24] Debug: Tree: Emalf House 1 < Frame Village
+[2025-08-25 17:05:49] Debug: Loaded Map Map0155.lmu
+[2025-08-25 17:05:49] Debug: Tree: Emalf House 2 < Emalf House 1 < Frame Village
+[2025-08-25 17:05:53] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:05:53] Debug: Tree: Frame Village
+[2025-08-25 17:06:07] Debug: Loaded Map Map0218.lmu
+[2025-08-25 17:06:07] Debug: Tree: Route 1 < Frame Village
+[2025-08-25 17:07:06] Debug: Loaded Map Map0217.lmu
+[2025-08-25 17:07:06] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 17:07:10] Debug: Loaded Map Map0207.lmu
+[2025-08-25 17:07:10] Debug: Tree: Cave < Frame Village
+[2025-08-25 17:07:26] Debug: Loaded Map Map0217.lmu
+[2025-08-25 17:07:26] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 17:07:29] Debug: Loaded Map Map0219.lmu
+[2025-08-25 17:07:29] Debug: Tree: Route 2 < Frame Village
+[2025-08-25 17:07:35] Debug: Loaded Map Map0223.lmu
+[2025-08-25 17:07:35] Debug: Tree: Devil Castle < Frame Village
+[2025-08-25 17:07:43] Debug: Loaded Map Map0246.lmu
+[2025-08-25 17:07:43] Debug: Tree: Playground < Devil Castle < Frame Village
+[2025-08-25 17:07:53] Debug: Loaded Map Map0223.lmu
+[2025-08-25 17:07:53] Debug: Tree: Devil Castle < Frame Village
+[2025-08-25 17:08:04] Debug: Loaded Map Map0253.lmu
+[2025-08-25 17:08:04] Debug: Tree: 1f < Devil Castle < Frame Village
+[2025-08-25 17:08:14] Debug: Loaded Map Map0250.lmu
+[2025-08-25 17:08:14] Debug: Tree: Thorone < Devil Castle < Frame Village
+[2025-08-25 17:08:26] Debug: Loaded Map Map0253.lmu
+[2025-08-25 17:08:26] Debug: Tree: 1f < Devil Castle < Frame Village
+[2025-08-25 17:08:31] Debug: Loaded Map Map0258.lmu
+[2025-08-25 17:08:31] Debug: Tree: 3F < 1f < Devil Castle < Frame Village
+[2025-08-25 17:08:35] Debug: Loaded Map Map0268.lmu
+[2025-08-25 17:08:35] Debug: Tree: IVLIS ROOM < 1f < Devil Castle < Frame Village
+[2025-08-25 17:08:39] Debug: Loaded Map Map0258.lmu
+[2025-08-25 17:08:39] Debug: Tree: 3F < 1f < Devil Castle < Frame Village
+[2025-08-25 17:08:48] Debug: Loaded Map Map0269.lmu
+[2025-08-25 17:08:48] Debug: Tree: Room of Sadness < Devil Castle < Frame Village
+[2025-08-25 17:08:53] Debug: Loaded Map Map0258.lmu
+[2025-08-25 17:08:53] Debug: Tree: 3F < 1f < Devil Castle < Frame Village
+[2025-08-25 17:08:59] Debug: Loaded Map Map0253.lmu
+[2025-08-25 17:08:59] Debug: Tree: 1f < Devil Castle < Frame Village
+[2025-08-25 17:09:07] Debug: Loaded Map Map0255.lmu
+[2025-08-25 17:09:07] Debug: Tree: 2F < 1f < Devil Castle < Frame Village
+[2025-08-25 17:09:15] Debug: Loaded Map Map0256.lmu
+[2025-08-25 17:09:15] Debug: Tree: POEMI ROOM < 1f < Devil Castle < Frame Village
+[2025-08-25 17:11:07] Debug: Loaded Map Map0255.lmu
+[2025-08-25 17:11:07] Debug: Tree: 2F < 1f < Devil Castle < Frame Village
+[2025-08-25 17:11:11] Debug: Loaded Map Map0253.lmu
+[2025-08-25 17:11:11] Debug: Tree: 1f < Devil Castle < Frame Village
+[2025-08-25 17:11:18] Debug: Loaded Map Map0223.lmu
+[2025-08-25 17:11:18] Debug: Tree: Devil Castle < Frame Village
+[2025-08-25 17:11:28] Debug: Loaded Map Map0219.lmu
+[2025-08-25 17:11:28] Debug: Tree: Route 2 < Frame Village
+[2025-08-25 17:11:35] Debug: Loaded Map Map0217.lmu
+[2025-08-25 17:11:35] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 17:11:42] Debug: Loaded Map Map0218.lmu
+[2025-08-25 17:11:42] Debug: Tree: Route 1 < Frame Village
+[2025-08-25 17:11:56] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:11:56] Debug: Tree: Frame Village
+[2025-08-25 17:12:04] Debug: Loaded Map Map0158.lmu
+[2025-08-25 17:12:04] Debug: Tree: Prison < Frame Village
+[2025-08-25 17:12:37] Debug: Loaded Map Map0032.lmu
+[2025-08-25 17:12:37] Debug: Tree: Frame Village
+[2025-08-25 17:12:40] Debug: Loaded Map Map0218.lmu
+[2025-08-25 17:12:40] Debug: Tree: Route 1 < Frame Village
+[2025-08-25 17:12:54] Debug: Loaded Map Map0217.lmu
+[2025-08-25 17:12:54] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 17:12:55] Debug: Loaded Map Map0207.lmu
+[2025-08-25 17:12:55] Debug: Tree: Cave < Frame Village
+[2025-08-25 17:13:02] Debug: Loaded Map Map0217.lmu
+[2025-08-25 17:13:02] Debug: Tree: Cuddle < Frame Village
+[2025-08-25 17:13:03] Debug: Loaded Map Map0219.lmu
+[2025-08-25 17:13:03] Debug: Tree: Route 2 < Frame Village
+[2025-08-25 17:13:06] Debug: Loaded Map Map0223.lmu
+[2025-08-25 17:13:06] Debug: Tree: Devil Castle < Frame Village
+[2025-08-25 17:13:10] Debug: Loaded Map Map0253.lmu
+[2025-08-25 17:13:10] Debug: Tree: 1f < Devil Castle < Frame Village
+[2025-08-25 17:13:15] Debug: Loaded Map Map0250.lmu
+[2025-08-25 17:13:15] Debug: Tree: Thorone < Devil Castle < Frame Village
+[2025-08-25 17:14:16] Debug: Loaded Map Map0270.lmu
+[2025-08-25 17:14:16] Debug: Tree: Sin Cave
+[2025-08-25 17:16:07] Debug: Loaded Map Map0020.lmu
+[2025-08-25 17:16:07] Debug: Tree: Route1 < Sin Cave
+[2025-08-25 17:16:45] Debug: Loaded Map Map0270.lmu
+[2025-08-25 17:16:45] Debug: Tree: Sin Cave
+[2025-08-25 17:16:47] Debug: Loaded Map Map0020.lmu
+[2025-08-25 17:16:47] Debug: Tree: Route1 < Sin Cave
+[2025-08-25 17:17:51] Debug: Starting battle 72 (Cave Bat): algos=(RPG_RT/RPG_RT)
+[2025-08-25 17:19:44] Debug: Starting battle 72 (Cave Bat): algos=(RPG_RT/RPG_RT) [2x]
+[2025-08-25 17:19:44] Debug: Loaded Map Map0270.lmu
+[2025-08-25 17:19:44] Debug: Tree: Sin Cave
+[2025-08-25 17:19:45] Debug: Loaded Map Map0020.lmu
+[2025-08-25 17:19:45] Debug: Tree: Route1 < Sin Cave
+[2025-08-25 17:20:02] Debug: Starting battle 72 (Cave Bat): algos=(RPG_RT/RPG_RT)
+[2025-08-25 17:20:17] Debug: Resolution changed to 320x240
+[2025-08-25 17:20:17] Debug: Cannot find: Music/On-jin_bgm-oopsuspenser02
+[2025-08-25 17:20:17] Debug: Music not found: On-jin_bgm-oopsuspenser02
+[2025-08-25 17:20:20] Debug: Loading Save Save01.lsd
+[2025-08-25 17:20:20] Debug: Savegame version 810 (EasyRPG Player 0.8.1)
+[2025-08-25 17:20:20] Warning: This savegame was created with EasyRPG Player 0.8.1 which is newer than the current version of EasyRPG Player (0.8)
+[2025-08-25 17:20:20] Debug: Loaded Map Map0154.lmu
+[2025-08-25 17:20:20] Debug: Tree: Emalf House 1 < Frame Village
