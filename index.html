@@ -129,7 +129,9 @@
 
   <div id="status"></div>
 
-  <div id="viewport">
+  <div id="app"></div>
+
+  <div id="viewport" style="display: none;">
     <canvas id="canvas" tabindex="-1" class="unselectable"></canvas>
 
     <div id="dpad" class="unselectable">
@@ -149,6 +151,7 @@
   </div>
 
 <script async type="text/javascript" src="/index.js"></script>
+<script type="module" src="/src/app/main.js"></script>
 
 <script>
 const hasTouchscreen = window.matchMedia('(hover: none), (pointer: coarse)').matches;
@@ -159,11 +162,17 @@ const canvas = document.getElementById('canvas');
 let easyrpgPlayer;
 let lastTouchedId;
 
-// Launch the Player and configure it
-window.addEventListener('load', async (event) => {
+// Function to launch EasyRPG with a specific game
+window.loadEasyRPGGame = async function(gamePath) {
     try {
         const wasmResponse = await fetch('/index.wasm');
         const wasmBytes = await wasmResponse.arrayBuffer();
+        
+        // Set the game in Module before creating the player
+        if (typeof Module === 'undefined') {
+            window.Module = {};
+        }
+        Module.game = gamePath;
         
         createEasyRpgPlayer({
           wasmBinary: wasmBytes
@@ -172,13 +181,11 @@ window.addEventListener('load', async (event) => {
           easyrpgPlayer = Module;
           easyrpgPlayer.initApi();
           canvas.focus();
-
-          // Custom code here
         });
     } catch (error) {
         console.error('Failed to load WebAssembly:', error);
     }
-});
+};
 
 // Make EasyRPG player embeddable
 canvas.addEventListener('mouseenter', () => canvas.focus());
