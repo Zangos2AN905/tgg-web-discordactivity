@@ -257,7 +257,7 @@ window.loadEasyRPGGame = async function(gameName) {
         
         createEasyRpgPlayer({
           wasmBinary: wasmBytes,
-          game: `games/${gameName}`
+          game: gameName
         }).then(function(Module) {
           // Module is ready
           easyrpgPlayer = Module;
