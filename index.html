@@ -118,6 +118,50 @@
     #apad > *:not(.active) {
       opacity: 0.4;
     }
+
+    .game-selection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .game-card {
+      background: #1a1a1a;
+      border: 2px solid #333;
+      border-radius: 12px;
+      padding: 2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    .game-card:hover {
+      border-color: #646cff;
+      transform: translateY(-4px);
+      box-shadow: 0 8px 25px rgba(100, 108, 255, 0.3);
+    }
+
+    .game-card h2 {
+      margin: 0 0 1rem 0;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+
+    .game-card p {
+      margin: 0;
+      color: #ccc;
+      font-size: 1rem;
+    }
   </style>
 </head>
 <body>
@@ -151,7 +195,53 @@
   </div>
 
 <script async type="text/javascript" src="/index.js"></script>
-<script type="module" src="/src/app/main.js"></script>
+<script>
+// Show game selection immediately
+function showGameSelection() {
+	document.querySelector('#app').innerHTML = `
+		<div class="game-selection">
+			<h1>Select a Game</h1>
+			<div class="games-grid">
+				<div class="game-card" data-game="The Gray Garden">
+					<h2>The Gray Garden</h2>
+					<p>The original Gray Garden adventure</p>
+				</div>
+				<div class="game-card" data-game="Another Side of Flames (BADLY TRANSLATED)">
+					<h2>Another Side of Flames</h2>
+					<p>A different perspective on the story</p>
+				</div>
+			</div>
+		</div>
+	`
+
+	// Add click handlers for game selection
+	document.querySelectorAll('.game-card').forEach(card => {
+		card.addEventListener('click', () => {
+			const gameName = card.dataset.game
+			launchGame(gameName)
+		})
+	})
+}
+
+function launchGame(gameName) {
+	// Hide the game selection and show the game container
+	document.querySelector('#app').style.display = 'none'
+	document.getElementById('viewport').style.display = 'block'
+	
+	// Set the game parameter in the URL for EasyRPG to pick up
+	const gameUrl = `/games/${encodeURIComponent(gameName)}`
+	
+	// Use the global loadEasyRPGGame function from index.html
+	if (window.loadEasyRPGGame) {
+		window.loadEasyRPGGame(gameUrl)
+	} else {
+		console.error('EasyRPG loader not available')
+	}
+}
+
+// Initialize game selection when page loads
+window.addEventListener('load', showGameSelection)
+</script>
 
 <script>
 const hasTouchscreen = window.matchMedia('(hover: none), (pointer: coarse)').matches;
