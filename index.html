@@ -255,14 +255,9 @@ window.loadEasyRPGGame = async function(gameName) {
         const wasmResponse = await fetch('/index.wasm');
         const wasmBytes = await wasmResponse.arrayBuffer();
         
-        // Set the game in Module before creating the player
-        if (typeof Module === 'undefined') {
-            window.Module = {};
-        }
-        Module.game = `games/${gameName}`;
-        
         createEasyRpgPlayer({
-          wasmBinary: wasmBytes
+          wasmBinary: wasmBytes,
+          game: `games/${gameName}`
         }).then(function(Module) {
           // Module is ready
           easyrpgPlayer = Module;
