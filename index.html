@@ -228,12 +228,9 @@ function launchGame(gameName) {
 	document.querySelector('#app').style.display = 'none'
 	document.getElementById('viewport').style.display = 'block'
 	
-	// Set the game parameter in the URL for EasyRPG to pick up
-	const gameUrl = `/games/${encodeURIComponent(gameName)}`
-	
 	// Use the global loadEasyRPGGame function from index.html
 	if (window.loadEasyRPGGame) {
-		window.loadEasyRPGGame(gameUrl)
+		window.loadEasyRPGGame(gameName)
 	} else {
 		console.error('EasyRPG loader not available')
 	}
@@ -253,7 +250,7 @@ let easyrpgPlayer;
 let lastTouchedId;
 
 // Function to launch EasyRPG with a specific game
-window.loadEasyRPGGame = async function(gamePath) {
+window.loadEasyRPGGame = async function(gameName) {
     try {
         const wasmResponse = await fetch('/index.wasm');
         const wasmBytes = await wasmResponse.arrayBuffer();
@@ -262,7 +259,7 @@ window.loadEasyRPGGame = async function(gamePath) {
         if (typeof Module === 'undefined') {
             window.Module = {};
         }
-        Module.game = gamePath;
+        Module.game = `games/${gameName}`;
         
         createEasyRpgPlayer({
           wasmBinary: wasmBytes
